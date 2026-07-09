@@ -28,3 +28,14 @@ Start by running `npm install` inside the project folder
 5. Copy the **Deploy Hook** URL from Render settings into GitHub secret `RENDER_DEPLOY_HOOK`.
 6. Set **Health Check Path** to `/health` in Render settings.
 7. Optional: set **Deployment policy** to **Override** for faster recovery from failed deploys.
+
+## Branch protection (exercise 17)
+
+In GitHub **Settings → Branches → Add branch ruleset**:
+
+- Target: `main`, enforcement **Active**
+- **Require status checks to pass before merging**
+- **Require branches to be up to date before merging**
+- Required status check: `simple_deployment_pipeline`
+
+In **Settings → Actions → General**, set workflow permissions to **Read and write**.
