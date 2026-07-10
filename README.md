@@ -28,3 +28,12 @@ Start by running `npm install` inside the project folder
 5. Copy the **Deploy Hook** URL from Render settings into GitHub secret `RENDER_DEPLOY_HOOK`.
 6. Set **Health Check Path** to `/health` in Render settings.
 7. Optional: set **Deployment policy** to **Override** for faster recovery from failed deploys.
+
+## GitHub secrets (chapter 6)
+
+- `RENDER_DEPLOY_HOOK` — Render deploy hook URL
+- `DISCORD_WEBHOOK` — Discord webhook from course channel `fullstack_webhook` (do not commit)
+
+## Blog app repository (exercises 21–22)
+
+https://github.com/KDF25/mooc-fullstackopen-blog-cicd
