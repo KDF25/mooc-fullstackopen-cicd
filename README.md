@@ -2,6 +2,11 @@
 
 This repository is used for the CI/CD module of the Full Stack Open course
 
+## Blog app (exercises 21–22)
+
+- Repository: https://github.com/KDF25/mooc-fullstackopen-blog-cicd
+- Deployed: https://mooc-fullstackopen-blog-cicd.onrender.com
+
 ## Deployed application
 
 https://mooc-fullstackopen-cicd.onrender.com
@@ -33,7 +38,3 @@ Start by running `npm install` inside the project folder
 
 - `RENDER_DEPLOY_HOOK` — Render deploy hook URL
 - `DISCORD_WEBHOOK` — Discord webhook from course channel `fullstack_webhook` (do not commit)
-
-## Blog app repository (exercises 21–22)
-
-https://github.com/KDF25/mooc-fullstackopen-blog-cicd
